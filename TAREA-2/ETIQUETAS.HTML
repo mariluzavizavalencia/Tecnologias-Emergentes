@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Document</title>
+</head>
+<body>
+    <h2>1. &lt;main&gt;</h2>
+    <main>
+        <p>Este es el contenido principal de la página.</p>
+    </main>
+    <hr>
+    <h2>2. &lt;nav&gt;</h2>
+    <nav>
+        <a href="#">Inicio</a> |
+        <a href="#">Contacto</a>
+    </nav>
+    <hr>
+    <h2>3. &lt;article&gt;</h2>
+    <article>
+        <h3>Noticia</h3>
+        <p>Este es un artículo independiente.</p>
+    </article>
+    <hr>
+    <h2>4. &lt;section&gt;</h2>
+    <section>
+        <h3>Sección de ejemplo</h3>
+        <p>Contenido agrupado dentro de una sección.</p>
+    </section>
+    <hr>
+    <h2>5. &lt;aside&gt;</h2>
+    <aside>
+        <p>Esto es contenido lateral o complementario.</p>
+    </aside>
+    <hr>
+    <h2>6. &lt;figure&gt; y 7. &lt;figcaption&gt;</h2>
+    <figure>
+        <img src="https://via.placeholder.com/200" alt="Ejemplo" />
+        <figcaption>Imagen con pie de foto.</figcaption>
+    </figure>
+    <hr>
+    <h2>8. &lt;picture&gt;</h2>
+    <picture>
+        <source srcset="https://via.placeholder.com/300x200" media="(min-width:600px)">
+        <img src="https://via.placeholder.com/150" alt="Ejemplo adaptativo" />
+    </picture>
+    <hr>    
+    <h2>9. &lt;audio&gt;</h2>
+        <audio controls>
+        <source src="ejemplo.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+    <hr>
+    <h2>10. &lt;video&gt; y 11. &lt;track&gt;</h2>
+        <video controls width="300">
+        <source src="ejemplo.mp4" type="video/mp4">
+        <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+        Tu navegador no soporta video.
+    </video>
+    <hr>
+    <h2>12. &lt;iframe&gt;</h2>
+        <iframe src="https://example.com" width="300" height="200"></iframe>
+    <hr>
+    <h2>13. &lt;details&gt; y 14. &lt;summary&gt;</h2>
+    <details>
+        <summary>Haz clic para ver más</summary>
+        <p>Texto oculto que se muestra al abrir los detalles.</p>
+    </details>
+    <hr>    
+    <h2>15. &lt;dialog&gt;</h2>
+        <button onclick="document.getElementById('modal').showModal()">Abrir diálogo</button>
+        <dialog id="modal">
+        <p>Este es un cuadro de diálogo.</p>
+        <button onclick="this.parentElement.close()">Cerrar</button>
+    </dialog>
+</body>
+</html>
