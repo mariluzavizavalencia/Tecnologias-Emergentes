@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 6px;
+}
+
+th {
+  color:red;
+}
+
+/* Colores por materia */
+.sis415 { background-color: red; color: white; }
+.sis443 { background-color: pink; }
+.sis421 { background-color: crimson; color: white; }
+.sis414 { background-color: blue; color: white; }
+.sis416 { background-color: green; color: white; }
+.sis420 { background-color: yellow; }
