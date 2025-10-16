@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blanchedalmond;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    color:blueviolet;
+}
+
+main {
+    padding: 80px 20px 20px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+section {
+    margin-top: 40px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 29, 45);
+    padding: 15px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 10s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.horario {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.horario th, .horario td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.horario th {
+    background-color: rgb(2, 29, 45);
+    color: white;
+}
+
+.sis415 { background-color: red; color: white; }
+.sis414 { background-color: blue; color: white; }
+.sis416 { background-color: green; color: white; }
+.sis420 { background-color: yellow; }
+.sis421 { background-color: crimson; color: white; }
+.sis443 { background-color: pink; }
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+form button {
+    padding: 10px;
+    background-color: rgb(2, 29, 45);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(0, 60, 90);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+table.materia {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table.materia td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table.materia td:nth-child(1) { background-color: #f4cccc; }  
+table.materia td:nth-child(2) { background-color: #ffe599; }  
+table.materia td:nth-child(3) { background-color: #c9daf8; }  
+table.materia td:nth-child(4) { background-color: #d9ead3; }  
+table.materia td:nth-child(5) { background-color: #ead1dc; }  
+table.materia td:nth-child(6) { background-color: #fff2cc; }  
+
+footer {
+    background-color: rgb(21, 236, 236);
+    border: 2px solid rgb(230, 13, 13);
+    padding: 20px;
+    text-align: center;
+}
